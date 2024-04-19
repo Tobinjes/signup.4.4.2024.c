@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:background="@color/white"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:layout_marginHorizontal="30dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Continue by filling account details
+        or login"
+        android:padding="15dp"
+        android:layout_marginHorizontal="20dp"
+        android:textSize="20dp"
+        android:textColor="#A6A2A2"
+        android:textStyle="bold"
+        android:paddingTop="30dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/Namelogin"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="30dp"
+        android:background="@drawable/edittext"
+        android:padding="18dp"
+        android:drawableRight="@drawable/name"
+        android:hint="Username / mail"
+        android:textStyle="bold"
+        android:textColorHint="#AAA7A7"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Passlogin"
+        android:background="@drawable/edittext"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="30dp"
+        android:padding="18dp"
+        android:hint="Password"
+        android:drawableRight="@drawable/eye_svgrepo_com"
+        android:textStyle="bold"
+        android:textColorHint="#AAA7A7"/>
+
+    <TextView
+        android:id="@+id/forgpass"
+        android:layout_width="178dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="100dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/Forget_pass"
+        android:textColor="#3373B3"
+        android:textSize="20dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/login"
+        android:backgroundTint="#19CA26"
+        android:padding="15dp"
+        android:text="Login"
+        android:textSize="20dp" />
+
+
+</LinearLayout>
